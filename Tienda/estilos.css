@@ -114,21 +114,24 @@ main .contenido2 .precios {
 	.post{
 		margin-left: 1%;
 		margin-right: 5%;
+		margin-top: 20px;
 		
 	}
 
 	#blog h2{
 		font-family: 'Montserrat';
 		font-weight: normal;
-		margin: 20px 0px 2% 42%;
-		justify-content: center;
+		margin: 12px 50px;		
+    	text-align: center;
+    	position: static;
 		
 	}
 	#blog h3{
 		font-family: 'Montserrat';
 		font-weight: normal;
-		margin: 0px 0px 5% 45.5%;
-		justify-content: center;
+		margin: 12px 50px;
+		text-align: center;
+		position: static;
 		
 	}
 	
