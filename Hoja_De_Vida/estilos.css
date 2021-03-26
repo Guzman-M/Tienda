@@ -1,0 +1,264 @@
+*{
+    position: static;
+}
+
+body{
+
+    background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
+    block-size: auto;
+    
+
+}
+
+div img{
+    height: 130px;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-position: 30%;
+    border-radius: 110%;
+    background-size: 110% auto;
+    margin-top: 20%;
+    margin-left: 5%;
+    block-size: auto;
+    
+}
+.Container {
+
+    width: 21%;
+    height: auto;
+    align-items: right;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    margin-left: 5%;
+    padding: 10px;
+    background-color: whitesmoke;
+    block-size: auto;
+}
+
+.PP {
+    position: absolute;
+    width: 34%;
+    text-align: center;
+    top: 20%;
+    left: 30%;
+    margin-left: 5%;
+    padding: 3px;
+    background-color: black;
+    block-size: auto;
+}
+.Comerciante{
+    position: absolute;
+    width: 34%;
+    text-align: center;
+    top: 30%;
+    left: 30%;
+    margin-left: 5%;
+    padding: 3px;
+    block-size: auto;
+}
+
+.Contacto{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+    padding: 50px;
+    margin-left: 5%;
+    margin-top: -4%;
+    background-color: whitesmoke;
+    block-size: auto;
+}
+
+.XPP{
+        position: relative;
+        width: 34%;
+        text-align: center;
+        top: 20%;
+        left: 30%;
+        margin-left: 5%;
+        padding: 3px;
+        background-color: black;
+        block-size: auto;
+}
+
+div .Habilidad{
+    width: 21%;
+    margin-left: 5%;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin-top: -26%;
+    block-size: auto;
+}
+
+#skill { 
+    list-style: none;
+    font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    width: 19.5%;
+    position: relative;
+    line-height: 2em;
+    padding: 20px;
+    margin-left: 5%;
+    margin-top: -1.5%;
+    background-color: whitesmoke;
+}
+
+#skill li { 
+	margin-bottom:50px; 
+	background:#e9e5e2;
+	height:20px; 
+	border-radius:10px; 
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
+}
+
+#skill li h3 { 
+	position:relative; 
+	top:-25px;
+}
+
+.bar { 
+	height:18px; 
+	margin:1px 2px;  
+	position:absolute;
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
+}
+
+.graphic-design {
+	width:55%; 
+	-moz-animation:graphic-design 2s ease-out;
+	-webkit-animation:graphic-design 2s ease-out;
+	background-color: #242424;
+}
+
+.html-css {
+	width:60%;
+	-moz-animation:html-css 2s ease-out;
+	-webkit-animation:html-css 2s ease-out;
+	background-color: #242424;
+	
+}
+
+.jquery {
+	width:50%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+	background-color: #242424;
+	
+}
+
+.wordpress {
+	width:65%;
+	-moz-animation:wordpress 2s ease-out;
+	-webkit-animation:wordpress 2s ease-out;
+	background-color: #242424;
+		
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 55%{ width:55%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 60%{ width:60%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 50%{ width:50%;}  }
+@-moz-keyframes wordpress   { 0%  { width:0px;} 65%{ width:65%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 55%{ width:55%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 60%{ width:60%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 50%{ width:50%;}  }
+@-webkit-keyframes wordpress   { 0%  { width:0px;} 65%{ width:65%;}  }
+
+
+#skill2 { 
+    list-style: none;
+    font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    width: 19.5%;
+    position: absolute;
+    line-height: 2em;
+    padding: 20px;
+    margin-left: 39.5%;
+    
+}
+
+#skill2 li { 
+	margin-bottom:50px; 
+	background:#e9e5e2;
+	height:20px; 
+	border-radius:10px; 
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
+}
+
+#skill2 li h3 { 
+	position:relative; 
+	top:-25px;
+}
+
+.bar { 
+	height:18px; 
+	margin:1px 2px;  
+	position:absolute;
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
+}
+
+.HTML-CSS {
+    width:70%;
+	-moz-animation:HTML-CSS 2s ease-out;
+	-webkit-animation:HTML-CSS 2s ease-out;
+	background-color: #242424;
+}
+
+.PHP {
+	width:40%;
+	-moz-animation:PHP 2s ease-out;
+	-webkit-animation:PHP 2s ease-out;
+	background-color: #242424;
+	
+}
+
+.SQL-SERVER {
+	width:60%;
+	-moz-animation:SQL-SERVER 2s ease-out;
+	-webkit-animation:SQL-SERVER 2s ease-out;
+	background-color: #242424;
+	
+}
+
+@-moz-keyframes HTML-CSS {0%  { width:0px;} 70%{ width:70%;}  }
+@-moz-keyframes PHP        { 0%  { width:0px;} 40%{ width:40%;}  }
+@-moz-keyframes SQL-SERVER      { 0%  { width:0px;} 50%{ width:50%;}  }
+
+@-webkit-keyframes HTML-CSS { 0%  { width:0px;} 70%{ width:70%;}  }
+@-webkit-keyframes PHP        { 0%  { width:0px;} 40%{ width:40%;}  }
+@-webkit-keyframes SQL-SERVER      { 0%  { width:0px;} 60%{ width:60%;}  }
+
+
+
+.Formacion{
+
+    position: relative;
+    width: 34%;
+    text-align: center;
+    top: 20%;
+    left: 30%;
+    margin-left: 5%;
+    padding: 3px;
+    background-color: black;
+}
+
+.FRM {
+    position: relative;
+    width: 34%;
+    text-align: center;
+    top: 30%;
+    left: 30%;
+    margin-left: 5%;
+    padding: 3px;
+}
