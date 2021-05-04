@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <main id="blog">
+
+
+        <div class="contenedor">
+            <aside>
+                <h3 class="titulo">Temas</h3>
+                <nav class="indice">
+                    <a href="#Automatizadores">Automatizadores</a>
+					<a href="#DC">DevOps & CI/CD</a>
+                    <a href="#CI/CD"><li>CI/CD</li></a>
+                    <a href="#Diferencia"><li>Diferencia entre CI y CD</li></a>
+					<a href="#Full_Stack">Full Stack</a>
+                    <a href="#Habilidades"><li> Habilidades de un Full Stack</li>
+                    <a href="#Herramientas"><li> Herramientas de un Full Stack</li></a>
+                </nav>
+            </aside>
+
+
+
+            <div class="contenido">
+				<div class="post">
+					<h1 class="titulo" id="Automatizadores">Automatizadores</h1>
+					<p class="fecha">Publicado el 3 de Mayo de 2021</p>
+					<p>
+						Antiguamente, cuando teníamos que crear un nuevo sitio web, debíamos crear manualmente una carpeta para el proyecto, las diferentes subcarpetas de las secciones de la web (imágenes, css, js, etc...), configurar un servidor web (se solía usar XAMPP o similares), colocar y enlazar las diferentes librerías CSS y/o Javascript que queríamos utilizar, etc...
+					</p>
+
+                    <p class="lado">
+                        Con la evolución del desarrollo web, hemos pasado a crear webs que <strong>transpilan código</strong>. Esto es, tenemos una carpeta src en nuestras aplicaciones web donde tenemos nuestro código fuente y ese código debe preprocesarse y traducirse a otro código <em>(en la carpeta <strong> dist </strong>)</em> que es el que finalmente leerá nuestro navegador. Mantener actualizado el código fuente que escribimos con el que lee el navegador sin automatizarlo, es una tarea muy tediosa (o prácticamente imposible), por lo que de ahí surgieron los <strong>automatizadores.   </strong>
+                    </p>
+
+                    <p>
+                        Actualmente, en el ecosistema Javascript (o en el mundo del desarrollo web en general), es muy común utilizar estos automatizadores para, entre otras cosas, agilizar el proceso de creación de una aplicación web con unos pocos comandos, realizando de forma automática todas esas tareas tediosas y repetitivas, alcanzando nuestro objetivo de forma más rápida y con una mejor experiencia de desarrollador.
+                    </p>
+                    <p>
+
+                        Algunas de esas tareas podrían ser las siguientes:
+
+                        <li class="">Creación del proyecto y su gestión <em>(gestionado con NPM)</em></li>
+                        <li class="">Actualización y mantenimiento de dependencias <em>(gestionado con NPM)</em></li>
+                        <li class="">Servidor web local de desarrollo</li>
+                        <li class="">Minificación de código</li>
+                    </p>
+				</div>
+				<div class="post">
+					<h1 class="titulo" id="DC">DevOps & CI/CD</h1>
+					<p class="fecha">Publicado el 3 de Mayo de 2021</p>
+                    <h3>DevOps</h3>
+					<p>
+                        DevOps es un acrónimo inglés de desarrollo <em>( development )</em> y operaciones <em>( operations)</em> es una práctica de ingeniería de software que tiene como objetivo unificar el desarrollo de software <em>(Dev)</em> y la operación del software <em>(Ops)</em>.
+					</p>
+
+                    <p>
+                        La principal característica de DevOps es defender la automatización y el monitoreo en todos los pasos de la construcción del software, desde la integración, las pruebas, la liberación hasta la implementación y la administración de la infraestructura. DevOps apunta a ciclos de desarrollo más cortos, mayor frecuencia de implementación y lanzamientos más confiables, en estrecha alineación con los objetivos del negocio.
+                    </p>
+
+                    <p class="lado">
+                        Los proyectos DevOps utilizan procesos estandarizados, permitiendo la automatización de estos para mejorar su fiabilidad y, por extensión, la calidad del software.
+                    </p>
+
+                    <p>
+                        Los procesos de automatización se desarrollan en cuatro áreas:
+
+                        <li>Construcción Automatizada</li>
+                        <li>Testing Automatizado</li>
+                        <li>Despliegue Automatizado</li>
+                        <li>Aprovisionamiento Automatizado</li>
+                    </p>
+
+                    <h3 id="CI/CD">CI/CD</h3>
+                    <p>
+                        La CI/CD es un método para distribuir aplicaciones a los clientes con frecuencia mediante el uso de la automatización en las etapas del desarrollo de aplicaciones. Los principales conceptos que se atribuyen a la CI/CD son la integración continua, la distribución continua y la implementación continua. La CI/CD es una solución para los problemas que puede generar la integración del código nuevo a los equipos de desarrollo y de operaciones (también conocida como "Integration Hell").
+                    </p>
+
+                    <p class="lado">
+                        En concreto, la CI/CD incorpora la automatización continua y el control permanente en todo el ciclo de vida de las aplicaciones, desde las etapas de integración y prueba hasta las de distribución e implementación. Este conjunto de prácticas se conoce como "canales de CI/CD", y cuenta con el soporte de DevOps.
+                    </p>
+
+                    <h3 id="Diferencia">Diferencia entre CI y CD </h3>
+                    <p>
+                        
+                        La sigla CI/CD tiene diferentes significados. La "CI" en CI/CD siempre se refiere a la integración continua, que es un proceso de automatización para los desarrolladores. Si la CI tiene éxito, los cambios del código nuevo en una aplicación se diseñan, se prueban y se combinan periódicamente en un repositorio compartido. Esto soluciona el problema de que se desarrollen demasiadas divisiones de una aplicación al mismo tiempo, porque podrían entrar en conflicto entre sí.
+                    </p>
+                    <p>
+
+                        La "CD" en CI/CD se refiere a la distribución o la implementación continuas, los cuales son conceptos relacionados que suelen usarse indistintamente. Ambos conceptos se refieren a la automatización de las etapas posteriores del canal, pero a veces se usan por separado para explicar la cantidad de automatización que se está incorporando.
+                    </p>
+
+				</div>
+				<div class="post">
+					<h1 class="titulo" id="Full_Stack">Full Stack</h1>
+					<p class="fecha">Publicado el 4 de Mayo de 2021</p>
+					<p>
+						Normalmente las empresas demandan un full-stack developer cuando buscan una persona técnica, normalmente programador informático, que conozca bien y le sean familiares <strong>todas las facetas del front-end y del back-end y los diferentes sistemas operativos </strong> y componentes que quedan en medio de esas fronteras.
+					</p>
+
+                    <p>
+                        Actualmente, parece ser que la demanda de programadores de estas características es una <strong>tendencia en aumento </strong> a la hora de realizar tareas de recruiting, sobre todo en empresas tecnológicas concebidas como startups, ya que al comenzar pocas personas y tener normalmente pocos recursos para contratar desarrollo, sus componentes deben ser <strong>capaces de asumir tareas de diferente índole</strong> y estar preparados para, al menos, no manejar pero sí conocer las diferentes partes técnicas del proyecto. De hecho, se dice que <strong>empresas como Facebook últimamente solo contratan programadores con este tipo de perfil.</strong>
+                    </p>
+
+                    <p class="lado">
+                        En resumen, un “full-stack developer” es un programador con <strong>un perfil técnico muy completo</strong> que conoce bien tanto lo referente a back-end como lo referente a front-end, se maneja en sistemas y sabe entender. Se trata de un perfil cada vez más demandado y bien remunerado. Según Indeed, la media mundial del salario de un full-stack developer en grandes empresas está cerca de los 100.000€.
+                    </p>
+
+                    <h1 class="titulo" id="Habilidades">Habilidades</h1>
+
+                    <p> 
+                        Las siguientes son cinco tecnologías que un full-stack developer debe dominar:
+                    </p>
+                    <li>JavaScript</li>
+                    <p>
+                        JavaScript es utilizado principalmente por sus constantes actualizaciones y lanzamiento de nuevas herramientas y marcos. Su versatilidad, presente por su capacidad de funcionar como un lenguaje back-end, front-end y full-stack
+                    </p>
+
+                    <li>Almacenamiento de web y bases de datos</li>
+                    <p>
+                        Al desarrollar aplicaciones, un almacén de datos es necesario para poder acceder a la información en futuras ocasiones.
+                    </p>
+                    <li>La arquitectura de la aplicación web</li>
+                    <p>
+                        El manejo back-end va mas alla que el uso de base de datos. La programación de lenguajes como HTML/CSS son esenciales para la estructura de sus códigos y archivos, especialmente en la creación de grandes sitios dinámicos
+                    </p>
+                    <li>GIT</li>
+                    <p>
+                        Debe dominar GIT para saber acceder los últimos códigos y editar el código de otros usuarios de manera sencilla.
+                    </p>
+                    <li> HTML/CSS</li>
+                    <p>
+                        Para conocer los aspectos básicos del desarrollo web, tendrá que comenzar con CSS y HTML, ya que son los componentes principales del front-end. CSS lo ayudará a diseñar el sitio web, mientras que HTML le permitirá agregar contenido.
+                    </p>
+
+                    <h1 class="titulo" id="Herramientas">Herramientas</h1>
+                
+                    <h3>Editores de texto</h3>
+                    <p>
+                        A veces, editores básicos como Notepad en Windows y TexEdit en MacOS se quedan algo cortos a la hora de realizar tareas complejas de edición de código. Para estas situaciones es necesario manejar otros editores de texto avanzados, que no solo permiten modificar archivos sino también recibir asistencia a la hora de identificar errores y personalizar casi cualquier elemento.
+                    </p>
+
+                    <p>
+                        <li>Sublime</li>
+                        <li>Visual Studio Code</li>
+                    </p>
+
+                    <h3>Lenguajes de programación</h3>
+                    <p>
+                        Son la esencia de la programación, y aunque hay miles, la mayoría de las páginas web se nutre de un puñado de ellos.
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>Python</li>
+                        <li>PHPs</li>
+                    </p>
+
+                    <h3>Frameworks</h3>
+                    <p>
+                        <li>Laravel</li>
+                        <li>Angular Js.</li>
+                        <li> Bootstrap</li>
+                        <li>Symfony.</li>
+                    </p>
+
+				</div>	
+			</div>
+
+        </div>
+    </main>
+
+</body>
+
+<nav class="navbar">
+    <div class="contenedor">
+    <a href="#">Volver</a>
+</div>
+</nav>
+</html>
