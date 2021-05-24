@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background: #f2f2f2;
+}
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar {
+	background: #a5a4a3;
+	position: sticky;
+	top: 0;
+}
+
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 900px;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	/*justify-content: space-between;*/
+}
+
+
+/* * ============================== */
+/* * ===== CONTENEDOR IMAGEN ====== */
+/* * ============================== */
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+main .contenido .precios {
+	font-size: 14px;
+	color: #6b6b6b;
+    padding: auto;
+}
+main .contenido2 .precios {
+	font-size: 14px;
+	color: #6b6b6b;
+    padding: auto;
+}
+#blog .contenido {
+	padding: 0;
+	margin: 5% 5% 0% 8%;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+
+	#blog .contenido2 {
+		padding: 0;
+		margin: 5% 5% 10% 8%;	
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		}
+
+	.post{
+		margin-left: 1%;
+		margin-right: 5%;
+		margin-top: 20px;
+		
+	}
+
+	#blog h2{
+		font-family: 'Montserrat';
+		font-weight: normal;
+		margin: 12px 50px;		
+    	text-align: center;
+    	position: static;
+		
+	}
+	#blog h3{
+		font-family: 'Montserrat';
+		font-weight: normal;
+		margin: 12px 50px;
+		text-align: center;
+		position: static;
+		
+	}
+	
+/* * ============================== */
+/* * ============ ASIDE =========== */
+/* * ============================== */
+
+aside {
+	min-width: 30%;
+	margin: 40px 20px 20px 0;
+	height: 100%;
+	background: #1D2F3D;
+	padding: 20px;
+	border-radius: 3px;
+	position:sticky;
+	top: 20px;
+
+}
+
+aside .titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #f2f2f2;
+}
+
+aside .indice a {
+	display: block;
+	margin-bottom: 10px;
+	color: #FFCD48;
+}
+
+/* * ============================== */
+/* * ========== FOOTER ============ */
+/* * ============================== */
+
+footer .navbar{
+	position: sticky;
+	bottom: 0;
+}
+
+.C1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 1rem;
+}
+
+footer .Footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #0d0a2b;
+    color: #ffffff;
+    margin-top: 1%;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.C1 a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 1.5%;
+    padding-right: 0.1%;
+}
+
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 1024px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+
+	aside{
+		position: static;
+		margin: 40px 0 0 0;
+	}
+}
+
+
+/*<p class="fecha">Publicado el 4 de Marzo de 2021</p>*/
+
+
